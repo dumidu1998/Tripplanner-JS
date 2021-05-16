@@ -1,0 +1,91 @@
+ #sign-up {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 570px;
+      margin-right: 10px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+
+	#user-icon{
+		height :25px;
+		width:25px;
+		padding-top:10px;
+		padding-right:10px;
+		padding-left:10px;
+		position:relative;
+		top:-8px;
+		
+	}
+	
+	.user-profile{
+		left:40px;
+		position:relative;
+	
+	
+	}
+	
+	#log-in {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 570px;
+      margin-right: 150px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+	
+	#home-page-button{
+		position: fixed;
+		display: block;
+		left: -40px;
+		bottom: 450px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+	#view-all-trips-button{
+		position: fixed;
+		display: block;
+		left: -98px;
+		bottom: 240px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+	#about-us-button{
+		position: fixed;
+		display: block;
+		left: -35px;
+		bottom: 40px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+		
+	body{
+		background-image: url('../img/background2.jpeg');
+		background-size: 100% 100%;
+	}
+	
+	#logo{
+		position:relative;
+		width:200px;
+		height:100px;
+		right:78px;
+		top:30px;
+	
+	}

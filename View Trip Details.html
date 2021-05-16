@@ -1,0 +1,121 @@
+<!Doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<title>Sky Travels Monash</title>
+
+	<!-- Page styles -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" />
+	<link rel="stylesheet" href="css/view_trip_details.css">
+	<!-- scripts -->
+	<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script src="js/class.js"></script>
+
+</head>
+
+<body>
+
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header" style="height:98px">
+			<div class="mdl-layout__header-row">
+				<img src="img/logo.png" id="logo">
+				<span class="mdl-layout-title"
+					style="text-align:center; position:relative; left:350px;font-size:30px">Scheduled Trip
+					Details</span>
+				<div class="mdl-layout-spacer"></div>
+				<div class="user-profile" style="position:relative;left:50px">
+					<label id="name">User's profile name <img src="img/user.png" id="user-icon"></label>
+				</div>
+				<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right"
+					style="top:30px">
+					<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+						<i class="material-icons">search</i>
+					</label>
+					<div class="mdl-textfield__expandable-holder">
+						<input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+
+		<nav class="mdl-navigation">
+			<a href="index.html" id="home-page-button"
+				class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">Home
+				Page</a>
+			<a href="About Us.html" id="about-us-button"
+				class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">About
+				Us</a>
+			<a href="Contact Us.html" id="contact-us-button"
+				class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">Contact
+				Us</a>
+			<a href="View all Trips.html" id="view-all-trips-button"
+				class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">View
+				all Scheduled Trips</a>
+
+		</nav>
+
+		<main class="mdl-layout__content">
+			<div class="page-content">
+				<!-- Your content goes here -->
+				<form action="" style="text-align:center;position:relative;bottom:40px">
+					<div class="country">
+						<label for="country"
+							style="padding:12px;font-family:verdana;font-size:16px;position:relative;right:42px">
+							Country of Departure :</label>
+						<input type="text" name="country" id="departure-country" readonly
+							style="width:230px;position:relative;right:8px"> </input>
+					</div> <br><br>
+
+					<div class="departure">
+						<label for="departure"
+							style="padding:12px;font-family:verdana;font-size:16px;position:relative;right:57px">Departure
+							Airport :</label>
+						<input name="departureAirport" id="departure-airport" readonly
+							style="width:230px;left:8px;position:relative"> </input>
+					</div>
+					<br><br>
+
+
+					<label for="date-list"
+						style="font-family:verdana;font-size:16px;position:relative;right:60px;top:65px">Date of
+						Departure:</label>
+					<input type="text" id="date-selected" name="select-date" readonly
+						style="width:230px;position:relative;top:65px;left:18px">
+
+
+					<div class="time">
+						<label for="time-selected"
+							style="padding:10px;font-family:verdana;font-size:16px;position:relative;right:180px;top:50px">Time
+							of Departure:</label>
+						<input type="text" name="time" id="time-selected" readonly
+							style="width:230px; right:115px;position:relative;top:50px"></input>
+					</div>
+
+
+					<div class="summary">
+						<span id="start" style="margin-right: 20px;font-size: 20px;font-weight: bold;">Start
+						</span>
+						<img src="img/airplane.png" alt="">
+						<span id="end" style="margin-left: 20px;font-size: 20px;font-weight: bold;">End</span>
+					</div>
+
+
+			</div>
+		</main>
+	</div>
+
+	<button type="submit" id="done" onclick="confirmtrip()"
+		class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">
+		Confirm
+	</button>
+	</form>
+	<script src="js/view_trip_details.js"></script>
+</body>
+
+</html>

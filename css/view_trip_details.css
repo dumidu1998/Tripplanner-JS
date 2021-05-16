@@ -1,0 +1,142 @@
+#done {
+      position: fixed;
+      display: block;
+      left: 700px;
+      bottom: 500px;
+      margin-right: 150px;
+      margin-bottom: 40px;
+      z-index: 900;
+	  top:500px;
+    }
+	
+	body{
+		background-image: url('../img/background2.jpeg');
+		background-size: 100% 100%;
+	}
+	
+	#user-icon{
+		height :25px;
+		width:25px;
+		padding-top:10px;
+		padding-right:10px;
+		padding-left:10px;
+		position:relative;
+		top:-8px;
+		
+	}
+	
+	.user-profile{
+		left:40px;
+		position:relative;
+	
+	
+	}
+
+	.summary{
+		position: absolute;
+		top: 300px;
+		left: 550px;
+		padding-bottom: 50px;
+	}
+	
+	#contact-us-button{
+		position: fixed;
+		display: block;
+		left: -45px;
+		bottom: 10px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;	
+	
+	}
+	
+	#view-all-trips-button{
+		position: fixed;
+		display: block;
+		left: -98px;
+		bottom: 310px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+		
+	
+	}
+	
+	#home-page-button{
+		position: fixed;
+		display: block;
+		left: -40px;
+		bottom: 490px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+	#about-us-button{
+		position: fixed;
+		display: block;
+		left: -35px;
+		bottom: 135px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+	.country{
+		top:80px;
+		position:relative;
+	
+	
+	}
+	
+	.departure{
+		top:65px;
+		position:relative;
+	
+	
+	}
+	
+	.date-selected{
+		top:80px;
+		left:180px;
+		position:relative;
+	
+	
+	}
+	
+	.time{
+		top:44px;
+		left:120px;
+		position:relative;
+	
+	
+	}
+	
+	#schedule {
+      position: fixed;
+      display: block;
+	  left: 700px;
+      top: 670px;
+      margin-right: 150px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+	
+	#logo{
+		position:relative;
+		width:180px;
+		height:90px;
+		right:78px;
+		top:18px;
+	
+	}

@@ -1,0 +1,142 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<title>Sky Travels Monash</title>
+
+	<!-- Page styles -->
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="css/register.css">
+
+	<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src='https://eng1003.monash/libs/countries.js'></script>
+
+</head>
+
+<body onload="showcountry()">
+
+	<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+		<header class="mdl-layout__header mdl-layout__header--transparent" style="height:85px">
+			<div class="mdl-layout__header-row">
+				<img src="img/logo.png" id="logo">
+				<span class="mdl-layout-title"
+					style="position:relative; font-size:35px; left:400px;top:70px;color:black;font-family:verdana"><b>Sign
+						Up</b></span>
+				<div class="mdl-layout-spacer"></div>
+				<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right"
+					style="top:20px">
+					<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+						<i class="material-icons" style="color:black">search</i>
+					</label>
+					<div class="mdl-textfield__expandable-holder">
+						<input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp"
+							style="color:black">
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+
+		<nav class="mdl-navigation">
+			<a href="index.html" id="home-page-button"
+				class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">Home
+				Page</a>
+			<a href="About Us.html" id="about-us-button"
+				class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">About
+				Us</a>
+			<a href="Contact Us.html" id="contact-us-button"
+				class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">Contact
+				Us</a>
+
+		</nav>
+
+
+
+
+		<main class="mdl-layout__content">
+			<div class="page-content">
+				<!-- Your content goes here -->
+
+				<form action="" method="POST" onsubmit="return subm()"
+					style="text-align:center;position:relative;top:100px">
+
+					<div style="width:200px;text-align:center;position:relative">
+						<i><img src="img/user.png" id="user-icon" style="left:430px;top:25px"></i>
+						<input class="input-field" type="text" placeholder="Full Name" name="fullname" id="fullname"
+							style="height:20px;width:400px;position:relative;left:555px" required>
+					</div><br>
+
+					<div>
+						<i class="material-icons" style="position:relative;right:30px;top:8px;padding:0px;">public</i>
+						<select class="input-field" type="text" placeholder="Country" name="country" id="country"
+							style="height:20px;width:400px;position:relative;right:22px" required>
+							<option value="0" selected hidden>-- Select your country</option>
+						</select>
+					</div><br>
+					<div>
+						<i class="material-icons" style="position:relative;right:30px;top:8px;padding:0px;">email</i>
+						<input class="input-field" type="text" placeholder="Email" name="email" id="email"
+							style="height:20px;width:400px;position:relative;right:22px" required>
+					</div><br>
+
+					<div>
+						<i class="material-icons" style="position:relative;right:55px;top:8px;padding:0px">unlock</i>
+						<input class="input-field" type="password" placeholder="Password" name="pwd" id="pwd"
+							pattern="\s*(\S\s*){6,}" title="Password Should at least 6 characters"
+							style="height:20px;width:400px;position:relative;right:45px" required>
+					</div><br>
+
+					<div>
+						<i class="material-icons" style="position:relative;right:55px;top:8px;padding:0px">unlock</i>
+						<input class="input-field" type="password" placeholder="Confirm Password" name="confirm pwd"
+							id="cpwd" title="Type the Confirm Password"
+							style="height:20px;width:400px;position:relative;right:45px" required>
+					</div><br>
+
+					<div>
+						<i class="material-icons" style="position:relative;right:238px;top:0px">date_range</i>
+						<input type="date" placeholder="Date" id="bday" name="select-date" required
+							style="height:20px;position:absolute;top:290px;right:838px">
+					</div>
+
+					<div>
+						<i class="material-icons" style="position:relative;right:-100px;top:-30px">wc</i>
+						<select style="height:25px;width:150px;position:relative;left:108px;top:-38px" id="gender">
+							<option value="0" selected hidden>Gender</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+						</select><br><br>
+					</div>
+
+
+
+					<button type="submit" id="register-button"
+						class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">Register
+					</button>
+
+					<button type="reset" id="clear-button"
+						class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--light-blue-900 mdl-color-text--accent-contrast">Clear
+					</button>
+
+
+				</form>
+
+
+
+
+			</div>
+		</main>
+	</div>
+
+</body>
+<script src="js/class.js"></script>
+<script src="js/register.js"></script>
+
+
+</html>

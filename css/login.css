@@ -1,0 +1,174 @@
+/* Bordered form */
+		.form {
+		margin: 0 auto;
+		}
+		#sign-up {
+      		position: fixed;
+      		display: block;
+      		right: 0;
+      		bottom: 570px;
+      		margin-right: 10px;
+      		margin-bottom: 40px;
+      		z-index: 900;
+    	}
+	
+		#log-in {
+      		position: fixed;
+      		display: block;
+      		right: 0;
+      		bottom: 570px;
+      		margin-right: 150px;
+      		margin-bottom: 40px;
+      		z-index: 900;
+    	}
+	
+	
+		#about-us-button{
+		position: fixed;
+		display: block;
+		left: -35px;
+		bottom: 90px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+		
+		#contact-us-button{
+		position: fixed;
+		display: block;
+		left: -45px;
+		bottom: 280px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+		}
+		
+		#home-page-button{
+		position: fixed;
+		display: block;
+		left: -40px;
+		bottom: 460px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+		}
+	
+		
+		body{
+			background-image: url('../img/background2.jpeg');
+			background-size: 100% 100%;
+		}
+
+		/* Full-width inputs */
+			input[type=text], input[type=password] {
+			text-align: left;
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+		}
+
+			/* Set a style for all buttons */
+			button {
+				background-color: #04AA6D;
+				color: white;
+				padding: 14px 20px;
+				margin: 8px 0;
+				border: none;
+				cursor: pointer;
+				width: 100%;
+			}
+
+			/* Add a hover effect for buttons */
+			button:hover {
+				opacity: 0.8;
+			}
+
+
+			/* Center the avatar image inside this container */
+			.imgcontainer {
+					text-align:center;
+					
+			}
+
+			/* Avatar image */
+			img.avatar {
+				width: 10%;
+				border-radius: 5%;
+			}				
+
+		/* Add padding to containers */
+			.container {
+				padding: 16px;
+				width:40%;
+				left:435px;
+				text-align:center;
+				position:fixed;
+			}
+
+		/* The "Forgot password" text */
+			span.psw {
+				float: left;
+				padding-top: 16px;
+			}
+
+		/* Change styles for span and cancel button on extra small screens */
+			@media screen and (max-width: 300px) {
+				span.psw {
+				display: block;
+				float: none;
+			}
+			.cancelbtn {
+			width: 100%;
+			}
+		}
+		
+		
+		
+		#headings{
+			position:fixed;
+			left:480px;
+			text-align:center;
+		
+		}
+		
+		#form-details{
+			position:fixed;
+			top:300px;
+		
+			
+		}
+		
+		#search-bar{
+			position:fixed;
+			right:0px;
+		
+		
+		}
+		
+		#arrow{
+		height :15px;
+		width:15px;
+		position:relative;
+		top:-1px;
+		right:10px;
+	}
+	
+	#logo{
+		position:relative;
+		width:200px;
+		height:100px;
+		right:75px;
+		top:40px;
+	
+	}

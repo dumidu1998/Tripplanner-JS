@@ -1,0 +1,93 @@
+body{
+		background-image: url('../img/background2.jpeg');
+		background-size: 100% 100%;
+	}
+	
+	#user-icon{
+		height :25px;
+		width:25px;
+		padding-top:10px;
+		padding-right:10px;
+		padding-left:10px;
+		position:relative;
+		top:-8px;
+		
+	}
+	
+	.user-profile{
+		left:40px;
+		position:relative;
+	
+	
+	}
+	
+	#contact-us-button{
+		position: fixed;
+		display: block;
+		left: -45px;
+		bottom: 130px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;	
+	
+	}
+	
+		
+	#home-page-button{
+		position: fixed;
+		display: block;
+		left: -40px;
+		bottom: 440px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+	#about-us-button{
+		position: fixed;
+		display: block;
+		left: -35px;
+		bottom: 280px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+	#register-button {
+      position: fixed;
+      display: block;
+      right: 650px;
+      top: 520px;
+      margin-right: 150px;
+      margin-bottom: 40px;
+      z-index: 900;
+	  border-radius:6px;
+    }
+	
+	#clear-button {
+      position: fixed;
+      display: block;
+      right: 500px;
+      top: 520px;
+      margin-right: 150px;
+      margin-bottom: 40px;
+      z-index: 900;
+	  border-radius:6px;
+    }
+	
+	#logo{
+		position:relative;
+		width:200px;
+		height:100px;
+		right:75px;
+		top:30px;
+	
+	}

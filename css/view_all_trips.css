@@ -1,0 +1,115 @@
+#view-old-trips {
+      position: fixed;
+      display: block;
+      right: 690px;
+      bottom: 500px;
+      margin-right: 150px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+	
+	#view-upcoming-trips {
+      position: fixed;
+      display: block;
+      right: 300px;
+      bottom: 500px;
+      margin-right: 150px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+	
+	body{
+		background-image: url('../img/background2.jpeg');
+		background-size: 100% 100%;
+	}
+	
+	#user-icon{
+		height :25px;
+		width:25px;
+		padding-top:10px;
+		padding-right:10px;
+		padding-left:10px;
+		position:relative;
+		top:-8px;
+		
+	}
+	
+	.user-profile{
+		left:40px;
+		position:relative;
+	
+	
+	}
+	
+	#contact-us-button{
+		position: fixed;
+		display: block;
+		left: -45px;
+		bottom: 30px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;	
+	
+	}
+	
+	#schedule-trip-button{
+		position: fixed;
+		display: block;
+		left: -60px;
+		bottom: 335px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+	#home-page-button{
+		position: fixed;
+		display: block;
+		left: -40px;
+		bottom: 490px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+	#about-us-button{
+		position: fixed;
+		display: block;
+		left: -35px;
+		bottom: 180px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	}
+	
+	
+	
+	#schedule {
+      position: fixed;
+      display: block;
+	  left: 700px;
+      top: 670px;
+      margin-right: 150px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+	
+	#logo{
+		position:relative;
+		width:180px;
+		height:90px;
+		right:78px;
+		top:18px;
+	
+	}

@@ -1,0 +1,145 @@
+#sign-up {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 570px;
+      margin-right: 10px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+	
+	#log-in {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 570px;
+      margin-right: 150px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+	
+	#home-page-text{
+		position:absolute;
+		text-align:center;
+		display: block;
+		bottom: 400px;
+		z-index: 900;
+		width: 100%;
+		font-size:50px;
+		color: dark blue;
+		font-family:Verdana;
+		
+	
+	}
+	
+	body{
+		background-image: url('../img/background3.jpeg');
+		background-size: 100% 100%;
+	}
+	
+	#home-page-nav{
+		position:absolute;
+		text-align:center;
+		left: 515px;
+		display: block;
+		bottom: 320px;
+		z-index: 900;
+		width: 100%;
+		font-size:50px;
+		color: dark blue;
+		font-family:Verdana;
+	}
+	
+	#nav-style{
+		padding-right:12px;
+		padding-left:12px;
+		font-family:Helvetica;
+		font-size:17px;
+	
+	}
+	
+	#arrow{
+		height :15px;
+		width:15px;
+		position:relative;
+		top:-1px;
+	}
+	
+	#insta_icon{
+		height :25px;
+		width:25px;
+		padding-top:10px;
+		padding-right:10px;
+		padding-left:10px;
+		position:relative;
+		top:0px;
+		transform: rotate(90deg);
+		
+	}
+	
+	#fb_icon{
+		height :25px;
+		width:25px;
+		padding-top:10px;
+		padding-right:10px;
+		padding-left:10px;
+		position:relative;
+		top:0px;
+		transform: rotate(90deg);
+		
+	}
+	
+	
+	
+	#contact-us-button{
+		position: fixed;
+		display: block;
+		right: -50px;
+		bottom: 30px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(-90deg);
+		margin-bottom: 40px;
+		z-index: 900;
+	
+	
+	}
+	
+	
+	#insta-button{
+		position: relative;
+		display: block;
+		left: 1470px;
+		top: 340px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(-90deg);
+		z-index: 900;
+		width:5px;
+		
+	
+	
+	}
+	
+	#fb-button{
+		position: relative;
+		display: block;
+		left: 1470px;
+		top: 370px;
+		border-radius: 12px;
+		margin-right: 10px;
+		transform: rotate(-90deg);
+		z-index: 900;
+		width:5px;
+	
+	
+	}
+	
+	#logo{
+		position:relative;
+		width:200px;
+		height:100px;
+		right:75px;
+		top:30px;
+	
+	}
